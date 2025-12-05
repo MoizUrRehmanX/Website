@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Profile</title>
+</head>
+<body>
+  <button id="cart" onclick="window.location='cart.html'">My Cart</button>
+  <button onclick="window.location='dashboard.html'">Dashboard</button>
+  <button onclick="window.location = 'orders.html'">My Orders</button>
+
+  <h2>Add Product</h2>
+  <form id="myproduct" onsubmit="event.preventDefault(); addProduct();">
+    <input type="text" id="name" placeholder="Product Name" required>
+    <input type="number" id="price" placeholder="Price" required>
+    <input type="url" id="image" placeholder="Image URL">
+    <button type="submit">Add Product</button>
+  </form>
+
+  <h2>My Products</h2>
+  <div id="myProducts"></div>
+
+  <script src="script.js"></script>
+  <script src="profile.js"></script>
+</body>
+</html>

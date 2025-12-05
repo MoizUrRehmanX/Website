@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Dashboard</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <button id="logout">Logout</button>
+  <button id="myprofile" onclick="window.location='profile.html'">Profile</button>
+  <button id="inboxBtn" onclick="openInbox()">Inbox</button>
+
+  <div id="inboxPopup" class="popup" style="display:none">
+    <h2>Your Inbox</h2>
+    <div id="inboxMessages"></div>
+    <button onclick="clearInbox()">Delete All</button>
+    <button onclick="closeInbox()">Close</button>
+  </div>
+
+  <hr>
+  <h2>Shop</h2>
+  <div id="shop"></div>
+
+  <script src="script.js"></script>
+  <script src="dashboard.js"></script>
+</body>
+</html>

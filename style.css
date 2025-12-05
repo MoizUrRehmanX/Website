@@ -1,0 +1,10 @@
+#inboxPopup {
+    display:none;
+    position:fixed;
+    right:10px;
+    top:10px;
+    background:#fff;
+    padding:12px;
+    border:1px solid #ccc;
+    width:300px;
+}
