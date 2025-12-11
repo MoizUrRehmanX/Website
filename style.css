@@ -9,8 +9,7 @@
     width:300px;
 }
 
-#product-model{
-    display:none;
+.product-model{
     position:fixed;
     right:10px;
     top:10px;
