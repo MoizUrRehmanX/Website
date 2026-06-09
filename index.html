@@ -1,38 +1,52 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-    <link href="./output.css" rel="stylesheet">
-  <title>Shop - Login / Signup</title>
-</head>
-<body class="w-screen h-screen bg-gray-100 flex items-center justify-center m-0 p-0">
-  <div class="container m-none p-4 bg-cyan w-full h-screen " >
-    <div>
-  <h2>Signup</h2>
-  <form id="signupform">
-    <input type="text" placeholder="username" id="usernames" required>
-    <input type="password" placeholder="password" id="passwords" required>
-    <button id="signupBtn">Submit</button>
-  </form>
-  
-  </div>
-  
-    <div>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <link href="./output.css" rel="stylesheet" />
+    <title>Shop - Login / Signup</title>
+  </head>
+  <body
+    class="m-0 flex h-screen w-screen justify-center bg-gray-50 p-0 align-middle dark:bg-[#111827]"
+  >
+    <div
+      class="flex-direction-row m-auto mx-auto flex items-center justify-center rounded-xl p-20 px-6 py-8 shadow sm:max-w-md md:mt-0 xl:p-0 dark:border dark:border-gray-700 dark:bg-gray-800"
+    >
+      <div>
+        <h2>Signup</h2>
+        <form id="signupform">
+          <input type="text" placeholder="username" id="usernames" required />
+          <input
+            type="password"
+            placeholder="password"
+            id="passwords"
+            required
+          />
+          <button id="signupBtn">Submit</button>
+        </form>
+      </div>
 
-  <h2>Login</h2>
-  <form id="loginform">
-    <input type="text" placeholder="Enter Your username" id="usernamel" required>
-    <input type="password" id="passwordl" placeholder="Enter your password" required>
-    <button id="loginBtn">Submit</button>
-  </form>
+      <div>
+        <h2>Login</h2>
+        <form id="loginform">
+          <input
+            type="text"
+            placeholder="Enter Your username"
+            id="usernamel"
+            required
+          />
+          <input
+            type="password"
+            id="passwordl"
+            placeholder="Enter your password"
+            required
+          />
+          <button id="loginBtn">Submit</button>
+        </form>
+      </div>
+    </div>
 
-  </div>
-  
-</div>
-
-
-  <script src="script.js"></script>
-  <script src="productModel.js"></script>
-</body>
+    <script src="script.js"></script>
+    <script src="productModel.js"></script>
+  </body>
 </html>

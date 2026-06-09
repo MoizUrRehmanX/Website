@@ -1,4 +1,6 @@
 @import "tailwindcss";
+@source "./*.html";
+@source "./*.js";
 
 body {
 
@@ -11,5 +13,5 @@ body {
     --color-secondary: #BC2C1A ;
     --color-white: #FCF7F8 ;
     --color-cyan: #77BFA3 ;
-    --color-black: #000000 ;
+    --color-black: #191919 ;
 }
